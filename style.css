@@ -1,13 +1,30 @@
-* {
-  border: 10px rgba(0, 0, 0, .3)
+a {
+  border: 10px rgba(0,0,0,1);
+  display: hidden;
 }
 
+body {
+  color: Black;
+  font-family: Roboto;
+}
+
+p {
+  color: Black;
+  font-weight: 900;
+
+}
+
+.me {
+  border-radius: 100%;
+  border-color: #FFF
+  border-width: 5px;
+}
 
 .redirections {
   color: Black;
   display:  inline-block;;
   border: 3px solid rgba(0, 0, 0, 0.5);
   font-family: Raleway;
+  font-weight: 900;
   padding: 5px;
-
 }
