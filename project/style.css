@@ -1,0 +1,38 @@
+a {
+  border: 10px rgba(0,0,0,1);
+  display: hidden;
+}
+
+body {
+  /*
+  background: url(http://i.imgur.com/QozlaIK.png);
+  background-size: 1520px 885px;
+  background-repeat: no-repeat;
+  */
+  background-color: Black;
+  font-family: Roboto;
+  overflow: scroll;
+  height: auto;
+  width: auto;
+  resize: both;
+}
+
+p {
+  color: White;
+  font-weight: 900;
+}
+
+.me {
+  border-radius: 100%;
+  border-color: #FFF
+  border-width: 5px;
+}
+
+.redirections {
+  color: White;
+  display:  inline-block;;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  font-family: Raleway;
+  font-weight: 900;
+  padding: 5px;
+}
