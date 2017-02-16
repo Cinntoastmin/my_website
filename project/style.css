@@ -3,13 +3,16 @@ a {
   display: hidden;
 }
 
+button {
+  border: 10px rgba(255, 0, 0, 0.5);
+}
 body {
   /*
   background: url(http://i.imgur.com/QozlaIK.png);
   background-size: 1520px 885px;
   background-repeat: no-repeat;
   */
-  background-color: Black;
+  background-color: White;
   font-family: Roboto;
   overflow: scroll;
   height: auto;
@@ -18,7 +21,7 @@ body {
 }
 
 p {
-  color: White;
+  color: Black;
   font-weight: 900;
 }
 
@@ -29,7 +32,7 @@ p {
 }
 
 .redirections {
-  color: White;
+  color: Black;
   display:  inline-block;;
   border: 3px solid rgba(0, 0, 0, 0.5);
   font-family: Raleway;
